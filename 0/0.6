@@ -1,0 +1,13 @@
+note over selain:
+sivu piirretty
+end note
+note over selain:
+lomakkeen tapahtumankäsittelijä:
+1) estää uudelleenlatauksen
+2) nootti JSON:iksi
+3) lisää uuden nootin paikallisesti
+4) kutsuu uudelleenpiirtoa
+5) lähettää uuden nootin palvelimelle
+end note
+selain->palvelin: HTTP-POST: https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+palvelin-->selain: 201: Nootti luotiin onnistuneesti

@@ -1,0 +1,21 @@
+selain->palvelin: HTTP-GET: https://studies.cs.helsinki.fi/exampleapp/spa
+palvelin-->selain: HTML-dokumentti
+note over selain:
+HTML:n käsittely
+Hae ulkoisia resursseja
+end note
+selain->palvelin: HTTP-GET: https://studies.cs.helsinki.fi/exampleapp/main.css
+palvelin-->selain: main.css
+selain->palvelin: HTTP-GET: https://studies.cs.helsinki.fi/exampleapp/spa.js
+palvelin-->selain: spa.js
+note over selain:
+js:ltä pyyntö nooteille
+end note over selain
+selain->palvelin: HTTP-GET: https://studies.cs.helsinki.fi/exampleapp/data.json
+palvelin-->selain: data.json
+note over selain:
+tapahtumankäsittelijä:
+1) parsee nootit
+2) kutsuu uudelleenpiirtoa
+sivu piirretty
+end note over selain
