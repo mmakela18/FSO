@@ -1,3 +1,17 @@
+## How to run
+
+# For weather information you need a valid API key from weatherapi.com
+
+$ wget https://github.com/mmakela18/FSO/raw/main/2/2.14/maiden_tiedot.zip
+
+$ unzip maiden_tiedot.zip -d maiden_tiedot
+
+$ cd maiden_tiedot
+
+$ npm install
+
+$ REACT_APP_API_KEY=<your weather.com API-key> npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
