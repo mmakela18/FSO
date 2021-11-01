@@ -10,7 +10,7 @@ $ cd maiden_tiedot
 
 $ npm install
 
-$ REACT_APP_API_KEY=<your weather.com API-key> npm start
+$ REACT_APP_API_KEY=\<your weather.com API-key\> npm start
 
 # Getting Started with Create React App
 
