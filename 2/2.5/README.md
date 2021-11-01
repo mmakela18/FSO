@@ -1,3 +1,15 @@
+## How to run
+
+$ wget https://github.com/mmakela18/FSO/raw/main/2/2.5/kurssitiedot.zip
+
+$ unzip kurssitiedot.zip -d kurssitiedot
+
+$ cd kurssitiedot
+
+$ npm install
+
+$ npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
