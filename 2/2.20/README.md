@@ -1,3 +1,15 @@
+## How to run
+
+$ wget https://github.com/mmakela18/FSO/raw/main/2/2.20/puhelinluettelo.zip
+
+$ unzip puhelinluettelo.zip -d puhelinluettelo
+
+$ cd puhelinluettelo
+
+$ npm install
+
+`npm start` and `npm run server` in another terminal
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
